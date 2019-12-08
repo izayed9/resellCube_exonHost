@@ -1,15 +1,14 @@
-
-html{
+html {
     scroll-behavior: smooth;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
 /*HERO-SECTION*/
 
-.hero-section{
+.hero-section {
     background: url("../images/hero-1.jpg");
     background-size: cover;
     color: #fff;
@@ -25,32 +24,37 @@ html{
     background: #004bc8;
     opacity: .8;
 }
-.btn-info{
-    background-color:  #448df1f5;
+
+.btn-info {
+    background-color: #448df1f5;
     border: none;
 }
-.btn-info:hover{
-    background-color: #091529 ;
-    
+
+.btn-info:hover {
+    background-color: #091529;
+
 }
-.card{
-    border:1px solid #002563 ;
+
+.card {
+    border: 1px solid #002563;
 }
 
 /* info-section */
-.i-info-box{
+.i-info-box {
     text-align: center;
 }
-.i-info-box img{
+
+.i-info-box img {
     width: 85px;
     height: 85px;
     background-color: #fff;
     margin: auto;
     margin-bottom: 30px;
 }
+
 /* Selling-section */
 
-.sell-box img{
+.sell-box img {
     width: 85px;
     height: 85px;
     margin: auto;
@@ -116,11 +120,12 @@ html{
 
 /******ABOUT******/
 /****About-hero-section****/
-.about-hero{
+.about-hero {
     background: url("../images/about_hero.jpg");
     background-size: cover;
 }
-.about-hero:before{
+
+.about-hero:before {
     content: "";
     width: 100%;
     height: 100%;
@@ -130,36 +135,71 @@ html{
     background-color: #124292e6;
     opacity: 0.8;
 }
+
 /*Strong Team Section*/
-.divider{
+.divider {
     width: 8px;
     height: 61px;
     background-color: #002563;
     margin-right: 16px;
 }
+
 /*Strong Team Section End*/
 
 /****about-banner****/
-.about-banner{
+.about-banner {
     background: url("../images/about-banner.jpg");
     background-size: cover;
 }
 
 /*Gallery-Section*/
-.gallery-divider{
+.gallery-divider {
     width: 100px;
     height: 8px;
     background-color: #002563;
     margin: auto;
 }
 
-.gallery-card{
+.gallery-card {
     border: 1px solid #2b72e821;
 }
+
 /***FAQ-SECTION-END***/
-@media only screen and (max-width: 770px)  {
-    .intro-body{
+/****HOSTING-RESELLER-HERO****/
+.reseller-hero-section {
+    background: url("../images/reseller-hero.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.reseller-hero-section::before {
+    content: "";
+    background: url(../images/resell-hero-bg-dots.png);
+    background-color: #052e4a78;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.feature-divider {
+    width: 140px;
+    height: 7px;
+    background-color: #002563;
+    margin: auto;
+}
+
+/****HOSTING-RESELLER-HERO END****/
+/****PLAN RESELLER SECTION****/
+.resell-box {
+    border: none;
+    color: #262751;
+}
+
+/* PLAN RESELLER SECTION END */
+@media only screen and (max-width: 770px) {
+    .intro-body {
         padding: 0;
     }
 }
-
