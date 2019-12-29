@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd4fee8a-1175-4f93-893a-e77c562d20c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="14ac1ae8-8cd4-4dd5-94bf-06a74849caa7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/resellCube.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g-suite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/privecy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terms-and-condition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/New folder (2).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain-reseller.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain-reseller.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hosting-reseller.html" beforeDir="false" afterPath="$PROJECT_DIR$/hosting-reseller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +27,36 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1U0Co01UC2ntBohUnFupTIMGcy4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1VKCKV10X0GhQQGJPwsuGYkWZ2U" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -47,19 +77,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bd4fee8a-1175-4f93-893a-e77c562d20c8" name="Default Changelist" comment="" />
-      <created>1574484299144</created>
+      <changelist id="14ac1ae8-8cd4-4dd5-94bf-06a74849caa7" name="Default Changelist" comment="" />
+      <created>1576992338943</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574484299144</updated>
-      <workItem from="1574484306777" duration="12585000" />
-      <workItem from="1574503864009" duration="2052000" />
-      <workItem from="1574574746837" duration="3770000" />
-      <workItem from="1575359578109" duration="1378000" />
-      <workItem from="1575439919190" duration="1376000" />
-      <workItem from="1575521599096" duration="21980000" />
-      <workItem from="1575778226387" duration="699000" />
-      <workItem from="1575784673749" duration="1189000" />
+      <updated>1576992338943</updated>
+      <workItem from="1576992349236" duration="1775000" />
+      <workItem from="1576994543294" duration="13064000" />
+      <workItem from="1577079497455" duration="17777000" />
+      <workItem from="1577163967631" duration="15803000" />
+      <workItem from="1577187545523" duration="1110000" />
+      <workItem from="1577591214059" duration="18036000" />
     </task>
     <servers />
   </component>

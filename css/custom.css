@@ -6,40 +6,79 @@ html {
     box-sizing: border-box;
 }
 
-/*HERO-SECTION*/
-
-.hero-section {
-    background: url("../images/hero-1.jpg");
+/* ****************************** */
+/********COMMON SECTION**********/
+.wrap-intro {
+    background: url("../images/about_hero.jpg");
     background-size: cover;
-    color: #fff;
+    position: relative;
+
 }
 
-.hero-section:before {
-    content: '';
-    width: 100%;
-    height: 100%;
+.wrap-intro::before {
+    content: "";
+    background-color: #03255ed1;
     position: absolute;
     top: 0;
     left: 0;
-    background: #004bc8;
-    opacity: .8;
+    width: 100%;
+    height: 100%;
 }
 
-.btn-info {
-    background-color: #448df1f5;
+.btn-custom {
+    border: 1px solid #fff;
+}
+
+.feature-divider {
+    width: 140px;
+    height: 7px;
+    background-color: #002563;
+    margin: auto;
+}
+
+/********COMMON SECTION END**********/
+
+
+/********HERO-SECTION DOMAIN-RESELLER*******/
+.hero-section-domainReseller {
+    background: url("../images/hero-1.jpg");
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+.hero-section-domainReseller::before {
+    content: "";
+    background-color: #002563c2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/****HERO-SECTION DOMAIN-RESELLER END****/
+
+
+/*****INTRO-SECTION******/
+.intro-section {
+    padding-top: 25px;
+}
+
+.intro-box {
+    background-color: #fff;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.12);
+    padding: 50px 30px;
     border: none;
 }
 
-.btn-info:hover {
-    background-color: #091529;
+/*****INTRO-SECTION END******/
 
+
+/*******INFO SECTION*******/
+.info-section {
+    background-color: #f7faff
 }
 
-.card {
-    border: 1px solid #002563;
-}
-
-/* info-section */
 .i-info-box {
     text-align: center;
 }
@@ -52,7 +91,14 @@ html {
     margin-bottom: 30px;
 }
 
-/* Selling-section */
+/****INFO SECTION END****/
+
+
+/******SELLING-SECTION*****/
+.selling-section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 .sell-box img {
     width: 85px;
@@ -61,9 +107,14 @@ html {
     margin-bottom: 30px;
 }
 
+.sell-card {
+    padding-top: 25px;
+}
+
+/****SELLING-SECTION END****/
+
 
 /***FAQ-SECTION***/
-
 .accrodian .accrodian-btn {
     display: block;
     padding: 14px;
@@ -118,25 +169,36 @@ html {
     margin-bottom: 20px;
 }
 
-/******ABOUT******/
-/****About-hero-section****/
+/* ***FAQ END*** */
+
+
+/******ABOUT-PAGE******/
+/* ****************** */
+/****ABOUT-HERO-SECTION****/
 .about-hero {
     background: url("../images/about_hero.jpg");
     background-size: cover;
+    position: relative;
 }
 
-.about-hero:before {
+.about-hero::before {
     content: "";
-    width: 100%;
-    height: 100%;
+    background-color: #002563a1;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #124292e6;
-    opacity: 0.8;
+    width: 100%;
+    height: 100%;
 }
 
-/*Strong Team Section*/
+/****ABOUT-HERO-SECTION-END***/
+
+/********STRONG-TEAM-SECTION*********/
+.team-strong-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .divider {
     width: 8px;
     height: 61px;
@@ -144,15 +206,9 @@ html {
     margin-right: 16px;
 }
 
-/*Strong Team Section End*/
+/***STRONG-TEAM-SECTION-END***/
 
-/****about-banner****/
-.about-banner {
-    background: url("../images/about-banner.jpg");
-    background-size: cover;
-}
-
-/*Gallery-Section*/
+/*GALLARY-SECTION*/
 .gallery-divider {
     width: 100px;
     height: 8px;
@@ -163,8 +219,15 @@ html {
 .gallery-card {
     border: 1px solid #2b72e821;
 }
+/***** GALLARY-SECTION-END ****/
 
-/***FAQ-SECTION-END***/
+
+/****ABOUT-PAGE END*****/
+/***********************/
+
+
+/* HOSTING-RESELLER PAGE */
+/* ********************  */
 /****HOSTING-RESELLER-HERO****/
 .reseller-hero-section {
     background: url("../images/reseller-hero.jpg");
@@ -174,7 +237,106 @@ html {
 
 .reseller-hero-section::before {
     content: "";
-    background: url(../images/resell-hero-bg-dots.png);
+    background-color: #002563a1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/****HOSTING-RESELLER-HERO END****/
+
+/****PLAN RESELLER SECTION****/
+.img-icon {
+    max-width: 70px;
+}
+
+.reseller-heading {
+    color: black;
+    margin-bottom: 50px;
+}
+
+.plan-reseller-section {
+    background-color: #f7faff;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.box-price {
+    padding: 10px 0 25px;
+    margin: 0 0 35px;
+    line-height: 36px;
+    border-bottom: 1px solid #eee;
+}
+
+.box-price span {
+    font-size: 14px;
+    display: block;
+}
+
+.plan-box {
+    background-color: #fff;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 50px 30px;
+    color: #204f84;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.plan-box h3 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.resellbox-btn {
+    min-width: auto !important;
+    margin-right: 0 !important;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: 600;
+    word-break: break-all;
+}
+
+/* PLAN RESELLER SECTION END */
+
+/****HOSTING SPECS****/
+.specs-reseller-text {
+    padding-left: 30px;
+}
+
+.specs-reseller-text ul li i {
+    color: #002563;
+    margin-right: 10px;
+}
+
+/****HOSTING SPECS END*****/
+
+/* FEATUREBOX SECTION */
+.feature-section {
+    background-color: #f7faff;
+
+}
+
+/* FEATUREBOX SECTION END */
+/* HOSTING-RESELLER PAGE */
+/* ********************  */
+/* *******END******* */
+
+
+/* *******CONTACT-PAGE******* */
+/* ********************** */
+/* CONTACT BANNER SECTION */
+.contact-banner-section {
+    background: url(../images/contact-banner.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.contact-banner-section::before {
+    content: "";
     background-color: #052e4a78;
     position: absolute;
     top: 0;
@@ -183,23 +345,175 @@ html {
     height: 100%;
 }
 
-.feature-divider {
-    width: 140px;
-    height: 7px;
+/* CONTACT BANNER SECTION END */
+
+
+/* CONNECT-SECTION */
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons a i {
+    font-size: 24px;
+}
+
+/* CONNECT-SECTION-END */
+
+
+/* CONTACT-INFO-SECTION */
+.form-box .form-group {
+    margin: 0 12px 40px;
+}
+
+.contact-fields {
+    border: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 60px;
+    height: 60px;
+    padding: 0 20px;
+    box-shadow: none;
+    color: #777;
+}
+
+.contact-comments {
+    min-height: 160px;
+}
+
+.contact-submit {
+    margin-top: 23px;
+    padding: 23px 0;
+}
+
+/* CONTACT-INFO-SECTION-END */
+
+/****LOCATION SECTION****/
+.location-section {
+    background-color: #f7faff;
+}
+
+.address-list li span {
+    float: left;
+    min-width: 72px;
+}
+
+.blue-text {
+    color: #1e65a5 !important;
+}
+
+.medium-font {
+    font-weight: 500;
+}
+
+/****LOCATION SECTION END****/
+/* *******CONTACT-PAGE******* */
+/* ********************** */
+/* **********END********* */
+
+
+/******PRICING PAGE******/
+
+/*Price-table-section*/
+.price-head{
     background-color: #002563;
+    color: #fff;
+    padding: 58px 0px;
+}
+/*PRICING PAGE END*/
+
+
+/*****G-SUITE-PAGE*****/
+/*g-suite-feature-section*/
+.g-suite-bg{
+    background: url("../images/privacy-bg.jpg");
+    background-size: cover;
+}
+.g-suite-feature-section{
+    background: #f7faff;
+    font-family: 'ProximaNovaBold','Arial','Helvetica','sans-serif';
+    font-weight: normal;
+}
+.g-suite-wrap{
+text-align: center;
+}
+.g-suite-wrap img{
+    width: 58px;
+    height: 58px;
     margin: auto;
 }
+.extra-feature-wrap{
+    background: #f7f7f7;
+    padding: 20px;
+}
+.work-device-heading {
+    color: #70a5f3;
+}
+.g-suite-btn{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    padding: 5px 16px;
+    border-radius: 5px;
+}
+.g-suite-btn:hover{
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.per-user{
+    margin-top: -12px;
+    margin-bottom: 0;
+    margin-left: 47px;
+    font-size: 14px;
+    color: #005cbf;
+}
+.dolar{
+    margin-bottom: 0;
+    color: #005cbf;
+    font-size: 25px;
+}
+.percent{
+    margin-bottom: 0;
+    color: #d53b3c;
+    font-size: 25px;
+}
+.mediumfont{
+    font-size: 14px;
+}
+.dolar-col{
+    color: #005cbf;
+}
+.g-suite-cart-btn{
+    min-width: auto;
+    margin-right: 0;
+    width: 100%;"
+}
+/*g-suite-feature-section-end*/
+/****G-SUITE_END****/
 
-/****HOSTING-RESELLER-HERO END****/
-/****PLAN RESELLER SECTION****/
-.resell-box {
-    border: none;
-    color: #262751;
+/*******TERMS-AND-CONDITION PAGE*******/
+/***terms-and-condition-bg-section***/
+.terms-and-condition-bg-section{
+    background: url("../images/trems-andcon-bg.jpg");
+    background-size: cover;
+   position: relative;
+}
+.terms-and-condition-bg-section:before{
+    content: "";
+    background-color: #052e4a78;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-/* PLAN RESELLER SECTION END */
-@media only screen and (max-width: 770px) {
-    .intro-body {
-        padding: 0;
-    }
+/***terms-and-condition-bg-section end***/
+/*****TERMS-AND-CONDITION PAGE END*****/
+
+/******PROMOS PAGE*****/
+/***promos-bg-section***/
+.promos-bg-section{
+    background: url("../images/promo-bg.jpg");
+    background-size: cover;
 }
+/*promos-bg-section-End*/
+/*PROMOS PAGE END*/
