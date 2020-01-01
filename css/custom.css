@@ -461,7 +461,7 @@ text-align: center;
 .per-user{
     margin-top: -12px;
     margin-bottom: 0;
-    margin-left: 47px;
+    /*margin-left: 47px;*/
     font-size: 14px;
     color: #005cbf;
 }
@@ -474,6 +474,7 @@ text-align: center;
     margin-bottom: 0;
     color: #d53b3c;
     font-size: 25px;
+    white-space: nowrap;
 }
 .mediumfont{
     font-size: 14px;
@@ -484,7 +485,8 @@ text-align: center;
 .g-suite-cart-btn{
     min-width: auto;
     margin-right: 0;
-    width: 100%;"
+    width: 100%;
+    padding: 12px;
 }
 /*g-suite-feature-section-end*/
 /****G-SUITE_END****/
@@ -514,6 +516,72 @@ text-align: center;
 .promos-bg-section{
     background: url("../images/promo-bg.jpg");
     background-size: cover;
+
 }
 /*promos-bg-section-End*/
 /*PROMOS PAGE END*/
+
+.micro-bus-bg{
+    background: url('../images/business-moreinfo-bg.png');
+    width: 100%;
+    margin: -190px 0 0 0;
+    position: relative;
+    z-index: 98;
+    box-shadow: 0 -4px 6px -2px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 -4px 6px -2px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 -4px 6px -2px rgba(0, 0, 0, 0.6);
+    padding: 0;
+    color: #fff;
+}
+.micro-bus-bg:before{
+    content: '';
+    background-color: #0025635e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.wrap-form{
+    border: 1px solid #ccc;
+    padding: 30px 20px;
+    margin: 27px 0 0 0;
+    border-radius: 5px;
+}
+.plan-from-btn{
+    margin-top: 36px;
+}
+.from-btn-custom{
+    padding: 12px;
+}
+.highlight-wrap{
+    background: #424242;
+    /* font-size: 23px; */
+    font-weight: 600;
+    color: #5d5d5d;
+    margin-top: -17px;
+    color: #fff;
+
+}
+
+.highlight-wrap-box{
+    border-right: 2px solid #fff;
+}
+.ee-lite-highlights span{
+    margin: 0 25px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px 0;
+    display: inline-block;
+}
+.white-text{
+    font-size: 30px;
+    margin-right: 5px;
+}
+.amount-number{
+    font-size: 20px;
+    font-weight: bold;
+}
+.amount-content{
+    margin-top: 6px;
+}
