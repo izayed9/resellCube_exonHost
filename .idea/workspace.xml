@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14ac1ae8-8cd4-4dd5-94bf-06a74849caa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/business-mail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/eu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/global.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/info.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/me.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/online.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/top.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/xyz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whois.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/business-mail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain-reseller.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain-reseller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g-suite.html" beforeDir="false" afterPath="$PROJECT_DIR$/g-suite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hosting-reseller.html" beforeDir="false" afterPath="$PROJECT_DIR$/hosting-reseller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privecy.html" beforeDir="false" afterPath="$PROJECT_DIR$/privecy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promos.html" beforeDir="false" afterPath="$PROJECT_DIR$/promos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terms-and-condition.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms-and-condition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +82,10 @@
       <workItem from="1577591214059" duration="19087000" />
       <workItem from="1577678288663" duration="19717000" />
       <workItem from="1577851108042" duration="23071000" />
+      <workItem from="1577938323425" duration="12331000" />
+      <workItem from="1578199995780" duration="12263000" />
+      <workItem from="1578221600377" duration="2114000" />
+      <workItem from="1578371848949" duration="9992000" />
     </task>
     <servers />
   </component>

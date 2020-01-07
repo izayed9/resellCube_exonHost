@@ -528,8 +528,6 @@ text-align: center;
     position: relative;
     z-index: 98;
     box-shadow: 0 -4px 6px -2px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 -4px 6px -2px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 0 -4px 6px -2px rgba(0, 0, 0, 0.6);
     padding: 0;
     color: #fff;
 }
@@ -552,11 +550,10 @@ text-align: center;
     margin-top: 36px;
 }
 .from-btn-custom{
-    padding: 12px;
+    padding: 13px;
 }
 .highlight-wrap{
     background: #424242;
-    /* font-size: 23px; */
     font-weight: 600;
     color: #5d5d5d;
     margin-top: -17px;
@@ -585,3 +582,127 @@ text-align: center;
 .amount-content{
     margin-top: 6px;
 }
+
+.feature-box-heading{
+    font-size: 18px;
+    font-family: "proxima_nova", Arial;
+    color: black;
+}
+.feature-box p{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    color: #1b1b1b;
+    line-height: 21px;
+}
+.business-feature-sec h3{
+    color: black;
+}
+.plansection-heading{
+    color: black;
+}
+
+.faq-box h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1b1b1b;
+    padding-bottom: 12px
+}
+.faq-box p{
+    font-size: 15px;
+    font-weight: 100;
+    color: #1b1b1b;
+    line-height: 21px;
+}
+.faq-head{
+    color: Black;
+}
+
+
+
+/*****SSL.html Page*****/
+/*ssl-hero-section*/
+.ssl-hero-section {
+    background-image: url("../images/ssl-certificate.jpg");
+    background-repeat: no-repeat;
+    background-position: 70%;
+    color: #fff;
+    position: relative;
+    background-size: cover;
+}
+.ssl-hero-section:before{
+    content: "";
+    background-color: #002563a1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*ssl-hero-section END*/
+
+/*ssl-feature-section*/
+.ssl-feature-section{
+    background-color: #f7f7f7;
+}
+.ssl-feature-box{
+    background-color: #fff;
+    border: 1px solid rgba(54,57,60,.1);
+    box-shadow: 0 4px 8px rgba(81,85,88,.1);
+    border-radius: 4px;
+    text-align: center;
+    padding: 14px 20px;
+    margin-bottom: 40px;
+    min-height: 330px;
+}
+.ssl-feature-box img{
+    width: 108px;
+    height: 130px;
+    margin: auto;
+}
+.ssl-feater-title{
+    color: #333;
+}
+.ssl-feature-box h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.ssl-feature-box p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    margin: 0;
+}
+/*ssl-feature-section End*/
+
+/*****SSL.html Page End*****/
+
+/*****Whois.html-page******/
+/*whois-banner-sec*/
+.whois-banner-sec{
+    background: url("../images/whois-bannner.jpg");
+    background-size: cover;
+    position: relative;
+}
+.whois-banner-sec:before{
+    content: "";
+    background-color: #002563b0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.domain-info-bg{
+    background-color: #002563d6;
+    color: #fff;
+}
+.item-line-title{
+    float: left;
+    min-width: 80px;
+}
+/*whois-banner-sec End*/
+/***wohis.html-page end***/
